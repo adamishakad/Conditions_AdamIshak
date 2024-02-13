@@ -8,7 +8,8 @@ namespace Conditions_AdamIshak
     internal class Program
     {
         static void Main(string[] args)
-        {
+        { // Exercise 1
+
             int num1;
             int num2;
 
@@ -40,6 +41,8 @@ namespace Conditions_AdamIshak
                 Console.WriteLine("num1 = num2");
 
             }
+            // Exercise 2
+
             if( (num1 > 90) && (num2 < 100 ) )
             {
                 Console.WriteLine("The letter of score is A");
@@ -60,14 +63,22 @@ namespace Conditions_AdamIshak
             {
                 Console.WriteLine("The letter of this score is:(F");
             }
-                // is leap year (year)
-           
+            // Exercise 3
+            
+            if (num1 % 4 == 0)
             {
 
             }
            
+            {
+
+            }
+                // Exercise 4
+                // Exercise 5
             
 
-        }
-    }
-}
+        } // Main
+
+    } //
+    
+} // namespace
